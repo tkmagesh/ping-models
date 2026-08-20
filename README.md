@@ -2,6 +2,17 @@
 
 Ping a set of Gemini models and report availability, latency, and a tiny response check.
 
+## Models
+| Vocareum Model Name             | Google Equivalent       | Notes                         |
+| ------------------------------- | ----------------------- | ----------------------------- |
+| `gemini-3.6-flash`              | `gemini-2.5-flash`      | Fast, **recommended default** |
+| `gemini-3.5-flash`              | `gemini-2.5-flash`      | Fast                          |
+| `gemini-3.5-flash-lite`         | `gemini-2.5-flash-lite` | Lightweight                   |
+| `gemini-3.1-pro-preview`        | `gemini-2.5-pro`        | Most capable                  |
+| `gemini-3.1-flash-lite-preview` | —                       | Lightweight preview           |
+| `gemini-3-flash-preview`        | —                       | Flash preview                 |
+
+
 ## Prerequisites
 - Python 3.10+
 - [uv](https://github.com/astral-sh/uv) for env + deps management (recommended)
