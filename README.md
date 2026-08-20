@@ -23,15 +23,12 @@ uv sync
 2) Provide an API key via env var or `.env`:
 
 ```bash
-# Option A: create a local .env from the example template
+# create a local .env from the example template
 cp .env.example .env
 # then open .env and set one of the keys, e.g.
 # GEMINI_API_KEY=your-key
 # or
 # GOOGLE_API_KEY=your-key
-
-# Option B: set in your current shell session
-export GOOGLE_API_KEY="your-key"
 ```
 
 ## Run
